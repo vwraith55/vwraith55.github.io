@@ -1,0 +1,69 @@
+.food { 
+    color: palevioletred
+}
+.navBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.navBar a {
+  text-decoration: none;
+  color: #333;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.navBar a:hover {
+  background-color: #e9ecef;
+}
+
+.navBar .home-link {
+  margin-left: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .navBar {
+    display: flex;
+    background-color: hotpink;
+  }
+}
+.valDiv {
+    border: 5px outset red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px; /* Space between content and border */
+    margin: 15px;  /* Space outside the border */
+    width: 500px;  /* Set a specific width */
+}
+
+.bold-colorful {
+    color:#C8A2C8;
+    font-weight:bold;
+}
+
+a:link {
+  color: hotpink;
+  text-decoration: none; /* Removes the default underline */
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  background-color: yellow;
+  font-size: 18px;
+}
+
+#home:hover {
+    background-color: hotpink;
+  font-size: 50px;
+}
